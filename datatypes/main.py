@@ -30,6 +30,11 @@ print(my_tuple2[5][1]) #misty
 # true --> 1
 # false --> 0
 
+# print(123=="123")
+
+
+
+
 
 
 
