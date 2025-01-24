@@ -28,3 +28,16 @@ print(set)
 a = None
 print(a)
 print(type(a))
+
+#input():
+# it is a function that takes input from the user.
+# by deafult the type of the input is string
+# if we want to change the type of the input taken we have to type cast it
+# to make it readable we have to give a prompt in the double qoutes in the input() so that user will understand what to do
+
+num = input()   #user wont understand what to do as there is no prompt message
+num = input("enter the number: ")       # now the user will understand to enter a number
+num1 = input("enter the number: ")
+num2 = input("enter the second number: ")
+print(num1+num2) #5 6 5+6 will return 56 not 11 as they are considered as strings
+num = int(input("enter the number: "))  # the entered number will be of string so we are converting it into int before storing it in the variable
