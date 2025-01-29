@@ -37,7 +37,13 @@ print(2 or 3) # if both are truthy then frst operand will be returned
 print(None or "") # if both are falsy then frst operand will be returned
 print("" or "hello")
 
+#NOT : complement of the input
+# if true  <--> false 
+# only true or false will be returned unlike and and or
 
+print(not 2)
+print(not "")
+print(not None)
 
 
 
