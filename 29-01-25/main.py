@@ -28,6 +28,15 @@ print("hello" and "hi")
 print(True and "empty")
 print(None and 3)
 
+# OR: or
+# If any one of the operand is false then the output is false
+# (a or b) --> if a is false then the output is false
+print(True or False)
+print(False or True)
+print(2 or 3) # if both are truthy then frst operand will be returned
+print(None or "") # if both are falsy then frst operand will be returned
+print("" or "hello")
+
 
 
 
