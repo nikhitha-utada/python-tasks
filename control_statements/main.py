@@ -12,11 +12,11 @@
 
 
 # There is an issue here that is if we provide 0 as an input, then it prints negative (It is syntactically correct but logically incorrect)
-num = int(input("Enter the number: "))
-if num>0:
-    print(f"{num} is Positive")
-else:
-    print(f"{num} is Negative")
+# num = int(input("Enter the number: "))
+# if num>0:
+#     print(f"{num} is Positive")
+# else:
+#     print(f"{num} is Negative")
 
 # # Logically correct Code
 num = int(input("Enter the number: "))
@@ -42,11 +42,10 @@ else:
     else:
         print(f"{num} is Negative")
 
-else if:
-    AS the requirements are increasing the complexity of the code is increasing so we use else if (elif)
-
-num>0 and num != 1:
-    print(positive)
+# else if:
+#     AS the requirements are increasing the complexity of the code is increasing so we use else if (elif)
+# num>0 and num != 1:  -->another way
+#     print(positive)
 
 
 num = int(input("Enter the number: "))
