@@ -45,5 +45,49 @@ print(not 2)
 print(not "")
 print(not None)
 
+# Bitwise operators --> &, |, ~, >>, <<, ^
+# Note: In logical operators we decide only which operand to return but in bitwise operators the output will be different from the input
+#process : 
+#        convert it into zeroes and ones
+#        now perform the operations bit by bit
+
+print(4 & 12) 
+# 4 --> bin(4)--> 0100 (8421 code)
+# 12 --> bin(12) --> 1100 (8421 code)
+# 0 1 0 0 
+#   &
+# 1 1 0 0 
+# --------
+# 0 1 0 0 --> 4 will be output
+
+print(12 | 15)
+ 
+# 12 --> bin(12)--> 1100 (8421 code)
+# 15 --> bin(15) --> 1111 (8421 code)
+# 1 1 0 0 
+#   |
+# 1 1 1 1 
+# --------
+# 1 1 1 1 --> 15 will be output
+
+
+# xor --> same input then 0 will be output or else 1 will be output
+#  0 ^ 0 --> 0
+#  0 ^ 1 --> 1
+#  1 ^ 0 --> 1
+#  1 ^ 1 --> 0
+ 
+print(4 ^ 7)
+
+# 4 --> bin(4)--> 0100 (8421 code)
+# 7 --> bin(7) --> 0111 (8421 code)
+# 0 1 0 0 
+#   ^
+# 0 1 1 1 
+# --------
+# 0 0 1 1 --> 3 will be output
+
+# LEFT SHIFT : <<
+
 
 
