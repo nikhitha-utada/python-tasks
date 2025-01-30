@@ -88,7 +88,7 @@ if current_units <= 100:
     if current_units < 0:
        print("Enter valid current units") 
     else:
-        if current_units >= 0 and current_units <50:
+        if current_units >= 0 and current_units <=50:
             print("You got zero bill")  
         else: 
             current_units *= 50
