@@ -84,15 +84,21 @@ print(f"Cost of Current units is {current_units}")
 
 # Only using if and else:
 current_units = int(input("Enter the current units: "))
-# if current_units < 0:
-#     print("Enter valid current units")
 if current_units <= 100:
-    current_units *= 50
+    if current_units < 0:
+       print("Enter valid current units") 
+    else:
+        if current_units >= 0 and current_units <50:
+            print("You got zero bill")  
+        else: 
+            current_units *= 50
 else:
     if current_units >= 101 and current_units <= 200:
         current_units *= 100
     else:
         if current_units >= 201 and current_units <= 300:
             current_units *= 150
+        else:
+            print("Higher value for current units")
 print(f"Cost of Current units is {current_units}")
 
