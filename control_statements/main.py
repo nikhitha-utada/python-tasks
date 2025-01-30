@@ -11,10 +11,33 @@
     # --> there is no rule that both if and else should have same number of spaces but the only thing that is considered is single block of statements should have same level of indentation
 
 
-# There is an issue here that is if we provide 0 as an input, then it prints negative 
+# There is an issue here that is if we provide 0 as an input, then it prints negative (It is syntactically correct but logically incorrect)
 num = int(input("Enter the number: "))
 if num>0:
     print(f"{num} is Positive")
 else:
     print(f"{num} is Negative")
 
+# Logically correct Code
+num = int(input("Enter the number: "))
+if num>0:
+    print(f"{num} is Positive")
+else:
+    if num==0:
+        print("It is zero")
+    else:
+        print(f"{num} is Negative")
+
+
+# Problem Statement: To print 1 if the input is 1 and to print postive for rest all positive numbers.
+num = int(input("Enter the number: "))
+if num>0:
+    if num==1:
+        print("Entered value is 1")
+    else:
+        print(f"{num} is Positive")
+else:
+    if num==0:
+        print("It is zero")
+    else:
+        print(f"{num} is Negative")
