@@ -12,32 +12,55 @@
 
 
 # There is an issue here that is if we provide 0 as an input, then it prints negative (It is syntactically correct but logically incorrect)
-num = int(input("Enter the number: "))
-if num>0:
-    print(f"{num} is Positive")
-else:
-    print(f"{num} is Negative")
+# num = int(input("Enter the number: "))
+# if num>0:
+#     print(f"{num} is Positive")
+# else:
+#     print(f"{num} is Negative")
 
-# Logically correct Code
-num = int(input("Enter the number: "))
-if num>0:
-    print(f"{num} is Positive")
-else:
-    if num==0:
-        print("It is zero")
-    else:
-        print(f"{num} is Negative")
+# # Logically correct Code
+# num = int(input("Enter the number: "))
+# if num>0:
+#     print(f"{num} is Positive")
+# else:
+#     if num==0:
+#         print("It is zero")
+#     else:
+#         print(f"{num} is Negative")
 
 
-# Problem Statement: To print 1 if the input is 1 and to print postive for rest all positive numbers.
+# # Problem Statement: To print 1 if the input is 1 and to print postive for rest all positive numbers.
+# num = int(input("Enter the number: "))
+# if num>0:
+#     if num==1:
+#         print("Entered value is 1")
+#     else:
+#         print(f"{num} is Positive")
+# else:
+#     if num==0:
+#         print("It is zero")
+#     else:
+#         print(f"{num} is Negative")
+
+# else if:
+    # AS the requirements are increasing the complexity of the code is increasing so we use else if (elif)
+
+# num>0 and num != 1:
+    # print(positive)
+
+
 num = int(input("Enter the number: "))
-if num>0:
-    if num==1:
-        print("Entered value is 1")
-    else:
-        print(f"{num} is Positive")
+if num == 0:
+    print("0")
+elif num == 1:
+    print("1")
+elif num > 0:
+    print("Positive")
+elif num == -1:
+    print("-1")
+elif num == -2:
+    print("-2")
 else:
-    if num==0:
-        print("It is zero")
-    else:
-        print(f"{num} is Negative")
+    print("negative")
+
+
