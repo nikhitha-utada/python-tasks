@@ -80,3 +80,19 @@ elif current_units >= 201 and current_units <= 300:
 else:
     current_units*= 200
 print(f"Cost of Current units is {current_units}")
+
+
+# Only using if and else:
+current_units = int(input("Enter the current units: "))
+# if current_units < 0:
+#     print("Enter valid current units")
+if current_units <= 100:
+    current_units *= 50
+else:
+    if current_units >= 101 and current_units <= 200:
+        current_units *= 100
+    else:
+        if current_units >= 201 and current_units <= 300:
+            current_units *= 150
+print(f"Cost of Current units is {current_units}")
+
