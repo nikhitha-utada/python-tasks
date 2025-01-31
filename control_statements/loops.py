@@ -40,6 +40,11 @@ for x in range(0,50):
 for i in range(1,10,2):
     print(i)
 
+# Problem Statement-4:
+# To print squares and cubes
+
+for i in range(1,50):
+    print(i**2)
 
 
 
